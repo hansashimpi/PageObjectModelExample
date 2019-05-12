@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<test thread-count="5" name="Test">
+	<test name="Test"  preserve-order="true">
 		<classes>
 		    <!-- hello local -->
-			<!-- classes to test-->
+			<!-- classes to test -->
 			<class name="Test.LoginTestCases" />
 			<class name="Test.RegisterNewMemberPageTest" />
-			<class name="Test.DashbordPageTest" />
+			 <class name="Test.DashbordPageTest" /> 
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
